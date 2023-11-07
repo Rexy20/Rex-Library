@@ -39,16 +39,14 @@
             this.ckShowPass = new System.Windows.Forms.CheckBox();
             this.btnRemove = new System.Windows.Forms.Button();
             this.errorProviderCustom = new System.Windows.Forms.ErrorProvider(this.components);
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_main)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProviderCustom)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Linen;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.IndianRed;
             this.label1.Location = new System.Drawing.Point(27, 9);
@@ -149,18 +147,6 @@
             // 
             this.errorProviderCustom.ContainerControl = this;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.errorProviderCustom.SetIconAlignment(this.pictureBox1, System.Windows.Forms.ErrorIconAlignment.MiddleLeft);
-            this.pictureBox1.Image = global::Dbsys.Properties.Resources.pic1;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(781, 290);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 9;
-            this.pictureBox1.TabStop = false;
-            // 
             // Frm_UserEntry
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -175,13 +161,11 @@
             this.Controls.Add(this.txtUsername);
             this.Controls.Add(this.btnRegistion);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox1);
             this.Name = "Frm_UserEntry";
             this.Text = "User Management";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgv_main)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProviderCustom)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -199,7 +183,6 @@
         private System.Windows.Forms.CheckBox ckShowPass;
         private System.Windows.Forms.Button btnRemove;
         private System.Windows.Forms.ErrorProvider errorProviderCustom;
-        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

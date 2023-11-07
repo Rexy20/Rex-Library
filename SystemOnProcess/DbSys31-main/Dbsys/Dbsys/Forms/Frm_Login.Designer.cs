@@ -37,25 +37,27 @@
             this.btnLogin = new System.Windows.Forms.Button();
             this.errorProviderCustom = new System.Windows.Forms.ErrorProvider(this.components);
             this.linkLabelRigester = new System.Windows.Forms.LinkLabel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.errorProviderCustom)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // ckShowPass
             // 
             this.ckShowPass.AutoSize = true;
-            this.ckShowPass.BackColor = System.Drawing.Color.Linen;
-            this.ckShowPass.ForeColor = System.Drawing.Color.IndianRed;
+            this.ckShowPass.BackColor = System.Drawing.Color.Transparent;
+            this.ckShowPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ckShowPass.ForeColor = System.Drawing.Color.Black;
             this.ckShowPass.Location = new System.Drawing.Point(26, 99);
             this.ckShowPass.Name = "ckShowPass";
-            this.ckShowPass.Size = new System.Drawing.Size(102, 17);
+            this.ckShowPass.Size = new System.Drawing.Size(115, 17);
             this.ckShowPass.TabIndex = 12;
             this.ckShowPass.Text = "Show Password";
             this.ckShowPass.UseVisualStyleBackColor = false;
+            this.ckShowPass.CheckedChanged += new System.EventHandler(this.ckShowPass_CheckedChanged);
             // 
             // txtPassword
             // 
+            this.txtPassword.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtPassword.Location = new System.Drawing.Point(26, 72);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(203, 20);
@@ -65,8 +67,8 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Linen;
-            this.label2.ForeColor = System.Drawing.Color.IndianRed;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.ForeColor = System.Drawing.Color.Black;
             this.label2.Location = new System.Drawing.Point(23, 56);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(53, 13);
@@ -75,6 +77,8 @@
             // 
             // txtUsername
             // 
+            this.txtUsername.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtUsername.ForeColor = System.Drawing.Color.Black;
             this.txtUsername.Location = new System.Drawing.Point(26, 30);
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(203, 20);
@@ -83,8 +87,8 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Linen;
-            this.label1.ForeColor = System.Drawing.Color.IndianRed;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.Location = new System.Drawing.Point(23, 14);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(55, 13);
@@ -95,9 +99,9 @@
             // 
             this.btnLogin.BackColor = System.Drawing.Color.Linen;
             this.btnLogin.ForeColor = System.Drawing.Color.IndianRed;
-            this.btnLogin.Location = new System.Drawing.Point(26, 133);
+            this.btnLogin.Location = new System.Drawing.Point(99, 122);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(203, 23);
+            this.btnLogin.Size = new System.Drawing.Size(62, 23);
             this.btnLogin.TabIndex = 13;
             this.btnLogin.Text = "LOGIN";
             this.btnLogin.UseVisualStyleBackColor = false;
@@ -111,31 +115,34 @@
             // 
             this.linkLabelRigester.ActiveLinkColor = System.Drawing.Color.Linen;
             this.linkLabelRigester.AutoSize = true;
-            this.linkLabelRigester.BackColor = System.Drawing.Color.Linen;
+            this.linkLabelRigester.BackColor = System.Drawing.Color.Transparent;
             this.linkLabelRigester.LinkColor = System.Drawing.Color.Blue;
-            this.linkLabelRigester.Location = new System.Drawing.Point(1, 171);
+            this.linkLabelRigester.Location = new System.Drawing.Point(149, 154);
             this.linkLabelRigester.Name = "linkLabelRigester";
-            this.linkLabelRigester.Size = new System.Drawing.Size(46, 13);
+            this.linkLabelRigester.Size = new System.Drawing.Size(62, 13);
             this.linkLabelRigester.TabIndex = 14;
             this.linkLabelRigester.TabStop = true;
-            this.linkLabelRigester.Text = "Register";
+            this.linkLabelRigester.Text = "Create one.";
             this.linkLabelRigester.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabelRigester_LinkClicked);
             // 
-            // pictureBox1
+            // label3
             // 
-            this.pictureBox1.Image = global::Dbsys.Properties.Resources.pic1;
-            this.pictureBox1.Location = new System.Drawing.Point(-6, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(273, 196);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 15;
-            this.pictureBox1.TabStop = false;
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.ForeColor = System.Drawing.Color.Black;
+            this.label3.Location = new System.Drawing.Point(29, 154);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(122, 13);
+            this.label3.TabIndex = 15;
+            this.label3.Text = "Don\'t have an account?";
             // 
             // Frm_Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(264, 196);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.ClientSize = new System.Drawing.Size(256, 192);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.linkLabelRigester);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.ckShowPass);
@@ -143,12 +150,10 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtUsername);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox1);
             this.Name = "Frm_Login";
             this.Text = "Frm_Login";
             this.Load += new System.EventHandler(this.Frm_Login_Load);
             ((System.ComponentModel.ISupportInitialize)(this.errorProviderCustom)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -164,6 +169,6 @@
         private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.ErrorProvider errorProviderCustom;
         private System.Windows.Forms.LinkLabel linkLabelRigester;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label3;
     }
 }

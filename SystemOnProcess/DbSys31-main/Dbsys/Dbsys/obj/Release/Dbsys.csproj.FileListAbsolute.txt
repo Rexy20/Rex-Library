@@ -34,3 +34,26 @@ D:\DbSys31-main final lab\DbSys31-main\DbSys31-main\Dbsys\Dbsys\obj\Release\Dbsy
 D:\DbSys31-main final lab\DbSys31-main\DbSys31-main\Dbsys\Dbsys\obj\Release\Dbsys.pdb
 D:\DbSys31-main final lab\DbSys31-main\DbSys31-main\Dbsys\Dbsys\obj\Release\Dbsys.Forms.Frm_Teacher_DashBoard.resources
 D:\DbSys31-main final lab\DbSys31-main\DbSys31-main\Dbsys\Dbsys\obj\Release\Dbsys.Forms.Frm_Student_Dashboard.resources
+D:\SystemOnProcess\Rex-Library\SystemOnProcess\DbSys31-main\Dbsys\Dbsys\bin\Release\Dbsys.exe.config
+D:\SystemOnProcess\Rex-Library\SystemOnProcess\DbSys31-main\Dbsys\Dbsys\bin\Release\Dbsys.exe
+D:\SystemOnProcess\Rex-Library\SystemOnProcess\DbSys31-main\Dbsys\Dbsys\bin\Release\Dbsys.pdb
+D:\SystemOnProcess\Rex-Library\SystemOnProcess\DbSys31-main\Dbsys\Dbsys\bin\Release\EntityFramework.dll
+D:\SystemOnProcess\Rex-Library\SystemOnProcess\DbSys31-main\Dbsys\Dbsys\bin\Release\EntityFramework.xml
+D:\SystemOnProcess\Rex-Library\SystemOnProcess\DbSys31-main\Dbsys\Dbsys\obj\Release\Dbsys.csproj.AssemblyReference.cache
+D:\SystemOnProcess\Rex-Library\SystemOnProcess\DbSys31-main\Dbsys\Dbsys\obj\Release\Dbsys.csproj.SuggestedBindingRedirects.cache
+D:\SystemOnProcess\Rex-Library\SystemOnProcess\DbSys31-main\Dbsys\Dbsys\obj\Release\Dbsys.Forms.Edit_User.resources
+D:\SystemOnProcess\Rex-Library\SystemOnProcess\DbSys31-main\Dbsys\Dbsys\obj\Release\Dbsys.Forms.Frm_Admin_Dashboard.resources
+D:\SystemOnProcess\Rex-Library\SystemOnProcess\DbSys31-main\Dbsys\Dbsys\obj\Release\Dbsys.Forms.Frm_Register.resources
+D:\SystemOnProcess\Rex-Library\SystemOnProcess\DbSys31-main\Dbsys\Dbsys\obj\Release\Dbsys.Forms.Frm_Student_Dashboard.resources
+D:\SystemOnProcess\Rex-Library\SystemOnProcess\DbSys31-main\Dbsys\Dbsys\obj\Release\Dbsys.Forms.Frm_Teacher_DashBoard.resources
+D:\SystemOnProcess\Rex-Library\SystemOnProcess\DbSys31-main\Dbsys\Dbsys\obj\Release\Dbsys.Frm_UserEntry.resources
+D:\SystemOnProcess\Rex-Library\SystemOnProcess\DbSys31-main\Dbsys\Dbsys\obj\Release\Dbsys.Frm_Login.resources
+D:\SystemOnProcess\Rex-Library\SystemOnProcess\DbSys31-main\Dbsys\Dbsys\obj\Release\Dbsys.Forms.View_Books.resources
+D:\SystemOnProcess\Rex-Library\SystemOnProcess\DbSys31-main\Dbsys\Dbsys\obj\Release\Dbsys.Forms.View_History.resources
+D:\SystemOnProcess\Rex-Library\SystemOnProcess\DbSys31-main\Dbsys\Dbsys\obj\Release\Dbsys.Forms.View_Messages.resources
+D:\SystemOnProcess\Rex-Library\SystemOnProcess\DbSys31-main\Dbsys\Dbsys\obj\Release\Dbsys.Properties.Resources.resources
+D:\SystemOnProcess\Rex-Library\SystemOnProcess\DbSys31-main\Dbsys\Dbsys\obj\Release\Dbsys.csproj.GenerateResource.cache
+D:\SystemOnProcess\Rex-Library\SystemOnProcess\DbSys31-main\Dbsys\Dbsys\obj\Release\Dbsys.csproj.CoreCompileInputs.cache
+D:\SystemOnProcess\Rex-Library\SystemOnProcess\DbSys31-main\Dbsys\Dbsys\obj\Release\Dbsys.csproj.CopyComplete
+D:\SystemOnProcess\Rex-Library\SystemOnProcess\DbSys31-main\Dbsys\Dbsys\obj\Release\Dbsys.exe
+D:\SystemOnProcess\Rex-Library\SystemOnProcess\DbSys31-main\Dbsys\Dbsys\obj\Release\Dbsys.pdb

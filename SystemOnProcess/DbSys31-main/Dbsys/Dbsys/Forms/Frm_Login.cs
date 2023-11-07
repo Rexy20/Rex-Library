@@ -98,5 +98,17 @@ namespace Dbsys
             //    txtUsername.Text = frm.username;
             //}
         }
+
+        private void ckShowPass_CheckedChanged(object sender, EventArgs e)
+        {
+            if (ckShowPass.Checked)
+            {
+                txtPassword.UseSystemPasswordChar = false;
+            }
+            else
+            {
+                txtPassword.UseSystemPasswordChar = true;
+            }
+        }
     }
 }
