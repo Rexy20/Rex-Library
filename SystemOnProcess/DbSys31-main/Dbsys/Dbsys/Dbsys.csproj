@@ -227,6 +227,9 @@
       <DependentUpon>DbysModel.edmx</DependentUpon>
       <LastGenOutput>DbysModel.cs</LastGenOutput>
     </Content>
+    <None Include="Resources\book.jpg" />
+    <None Include="Resources\stud.jpg" />
+    <None Include="Resources\back2.jpg" />
     <None Include="Resources\pic12.jpg" />
     <None Include="Resources\pic1.jpg" />
   </ItemGroup>
