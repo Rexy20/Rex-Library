@@ -38,6 +38,9 @@
             this.createUserToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.logoutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip2 = new System.Windows.Forms.StatusStrip();
+            this.homePageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.adminAccountToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.viewUserToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_main)).BeginInit();
             this.statusStrip1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
@@ -77,7 +80,8 @@
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.fileToolStripMenuItem});
+            this.fileToolStripMenuItem,
+            this.homePageToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(682, 24);
@@ -88,10 +92,11 @@
             // 
             this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.userToolStripMenuItem,
-            this.logoutToolStripMenuItem});
+            this.logoutToolStripMenuItem,
+            this.viewUserToolStripMenuItem1});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
-            this.fileToolStripMenuItem.Text = "File";
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
+            this.fileToolStripMenuItem.Text = "Settings";
             // 
             // userToolStripMenuItem
             // 
@@ -99,13 +104,15 @@
             this.createUserToolStripMenuItem});
             this.userToolStripMenuItem.Name = "userToolStripMenuItem";
             this.userToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.userToolStripMenuItem.Text = "User";
+            this.userToolStripMenuItem.Text = "Accounts";
             // 
             // createUserToolStripMenuItem
             // 
+            this.createUserToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.adminAccountToolStripMenuItem});
             this.createUserToolStripMenuItem.Name = "createUserToolStripMenuItem";
-            this.createUserToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
-            this.createUserToolStripMenuItem.Text = "Create User";
+            this.createUserToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.createUserToolStripMenuItem.Text = "User Account";
             this.createUserToolStripMenuItem.Click += new System.EventHandler(this.createUserToolStripMenuItem_Click);
             // 
             // logoutToolStripMenuItem
@@ -121,6 +128,24 @@
             this.statusStrip2.Size = new System.Drawing.Size(682, 22);
             this.statusStrip2.TabIndex = 2;
             this.statusStrip2.Text = "statusStrip2";
+            // 
+            // homePageToolStripMenuItem
+            // 
+            this.homePageToolStripMenuItem.Name = "homePageToolStripMenuItem";
+            this.homePageToolStripMenuItem.Size = new System.Drawing.Size(81, 20);
+            this.homePageToolStripMenuItem.Text = "Home Page";
+            // 
+            // adminAccountToolStripMenuItem
+            // 
+            this.adminAccountToolStripMenuItem.Name = "adminAccountToolStripMenuItem";
+            this.adminAccountToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.adminAccountToolStripMenuItem.Text = "Admin Profile";
+            // 
+            // viewUserToolStripMenuItem1
+            // 
+            this.viewUserToolStripMenuItem1.Name = "viewUserToolStripMenuItem1";
+            this.viewUserToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.viewUserToolStripMenuItem1.Text = "View User";
             // 
             // Frm_Admin_Dashboard
             // 
@@ -157,5 +182,8 @@
         private System.Windows.Forms.ToolStripMenuItem createUserToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem logoutToolStripMenuItem;
         private System.Windows.Forms.StatusStrip statusStrip2;
+        private System.Windows.Forms.ToolStripMenuItem homePageToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem adminAccountToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem viewUserToolStripMenuItem1;
     }
 }

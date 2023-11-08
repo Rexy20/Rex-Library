@@ -34,7 +34,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(823, 454);
+            this.ClientSize = new System.Drawing.Size(784, 461);
             this.Name = "Frm_Teacher_DashBoard";
             this.Text = "Frm_Teacher_DashBoard";
             this.Load += new System.EventHandler(this.Frm_Teacher_DashBoard_Load);

@@ -39,6 +39,7 @@
             this.ckShowPass = new System.Windows.Forms.CheckBox();
             this.btnRemove = new System.Windows.Forms.Button();
             this.errorProviderCustom = new System.Windows.Forms.ErrorProvider(this.components);
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_main)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProviderCustom)).BeginInit();
             this.SuspendLayout();
@@ -49,7 +50,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Cooper Black", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(147, 113);
+            this.label1.Location = new System.Drawing.Point(148, 144);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(68, 14);
             this.label1.TabIndex = 0;
@@ -59,10 +60,10 @@
             // 
             this.btnRegistion.BackColor = System.Drawing.Color.LightSkyBlue;
             this.btnRegistion.Font = new System.Drawing.Font("Cooper Black", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegistion.ForeColor = System.Drawing.Color.IndianRed;
-            this.btnRegistion.Location = new System.Drawing.Point(151, 268);
+            this.btnRegistion.ForeColor = System.Drawing.Color.Black;
+            this.btnRegistion.Location = new System.Drawing.Point(151, 294);
             this.btnRegistion.Name = "btnRegistion";
-            this.btnRegistion.Size = new System.Drawing.Size(203, 29);
+            this.btnRegistion.Size = new System.Drawing.Size(87, 29);
             this.btnRegistion.TabIndex = 1;
             this.btnRegistion.Text = "REGISTER";
             this.btnRegistion.UseVisualStyleBackColor = false;
@@ -71,7 +72,7 @@
             // txtUsername
             // 
             this.txtUsername.ForeColor = System.Drawing.Color.IndianRed;
-            this.txtUsername.Location = new System.Drawing.Point(150, 132);
+            this.txtUsername.Location = new System.Drawing.Point(151, 163);
             this.txtUsername.Multiline = true;
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(203, 30);
@@ -80,7 +81,7 @@
             // 
             // txtPassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(150, 191);
+            this.txtPassword.Location = new System.Drawing.Point(151, 222);
             this.txtPassword.Multiline = true;
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(203, 30);
@@ -93,7 +94,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Cooper Black", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(148, 174);
+            this.label2.Location = new System.Drawing.Point(149, 205);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(67, 14);
             this.label2.TabIndex = 3;
@@ -112,10 +113,10 @@
             // 
             this.btnUpdate.BackColor = System.Drawing.Color.LightSkyBlue;
             this.btnUpdate.Font = new System.Drawing.Font("Cooper Black", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUpdate.ForeColor = System.Drawing.Color.IndianRed;
-            this.btnUpdate.Location = new System.Drawing.Point(150, 308);
+            this.btnUpdate.ForeColor = System.Drawing.Color.Black;
+            this.btnUpdate.Location = new System.Drawing.Point(258, 294);
             this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(203, 29);
+            this.btnUpdate.Size = new System.Drawing.Size(95, 29);
             this.btnUpdate.TabIndex = 6;
             this.btnUpdate.Text = "UPDATE";
             this.btnUpdate.UseVisualStyleBackColor = false;
@@ -127,7 +128,7 @@
             this.ckShowPass.BackColor = System.Drawing.Color.Transparent;
             this.ckShowPass.Font = new System.Drawing.Font("Cooper Black", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ckShowPass.ForeColor = System.Drawing.Color.Black;
-            this.ckShowPass.Location = new System.Drawing.Point(150, 227);
+            this.ckShowPass.Location = new System.Drawing.Point(151, 258);
             this.ckShowPass.Name = "ckShowPass";
             this.ckShowPass.Size = new System.Drawing.Size(124, 18);
             this.ckShowPass.TabIndex = 7;
@@ -139,8 +140,8 @@
             // 
             this.btnRemove.BackColor = System.Drawing.Color.LightSkyBlue;
             this.btnRemove.Font = new System.Drawing.Font("Cooper Black", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRemove.ForeColor = System.Drawing.Color.IndianRed;
-            this.btnRemove.Location = new System.Drawing.Point(150, 348);
+            this.btnRemove.ForeColor = System.Drawing.Color.Black;
+            this.btnRemove.Location = new System.Drawing.Point(151, 329);
             this.btnRemove.Name = "btnRemove";
             this.btnRemove.Size = new System.Drawing.Size(203, 29);
             this.btnRemove.TabIndex = 8;
@@ -152,6 +153,18 @@
             // 
             this.errorProviderCustom.ContainerControl = this;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Cooper Black", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Black;
+            this.label3.Location = new System.Drawing.Point(146, 91);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(199, 31);
+            this.label3.TabIndex = 9;
+            this.label3.Text = "User Account";
+            // 
             // Frm_UserEntry
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -159,6 +172,7 @@
             this.BackgroundImage = global::Dbsys.Properties.Resources.back2;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(884, 461);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.btnRemove);
             this.Controls.Add(this.ckShowPass);
             this.Controls.Add(this.btnUpdate);
@@ -190,6 +204,7 @@
         private System.Windows.Forms.CheckBox ckShowPass;
         private System.Windows.Forms.Button btnRemove;
         private System.Windows.Forms.ErrorProvider errorProviderCustom;
+        private System.Windows.Forms.Label label3;
     }
 }
 
